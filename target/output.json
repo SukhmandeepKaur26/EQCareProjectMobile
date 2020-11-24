@@ -1,0 +1,140 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13898411700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have visited EQCare support page",
+            "match": {
+              "location": "Form.i_have_visited_EQCare_support_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Submit an empty support Form",
+        "description": "",
+        "id": "as-a-user,-i-want-the-contact-form-to-display-validation-errors-when-i-submit-an-empty-form-and-with-valid-test-data.;submit-an-empty-support-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 209651600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on submit without entering any data in the form",
+            "match": {
+              "location": "Form.i_click_on_submit_without_entering_any_data_in_the_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1778884100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "proper validation errors should be displayed and user should be unable to submit the form.",
+            "match": {
+              "location": "Form.proper_validation_errors_should_be_displayed_and_user_should_be_unable_to_submit_the_form()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10449984400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have visited EQCare support page",
+            "match": {
+              "location": "Form.i_have_visited_EQCare_support_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Submit the support form with valid data",
+        "description": "",
+        "id": "as-a-user,-i-want-the-contact-form-to-display-validation-errors-when-i-submit-an-empty-form-and-with-valid-test-data.;submit-the-support-form-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 899160700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter valid data values in all form fields",
+            "match": {
+              "location": "Form.i_enter_valid_data_values_in_all_form_fields()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1682019200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should be able to submit the form successfully.",
+            "match": {
+              "location": "Form.user_should_be_able_to_submit_the_form_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I want the contact form to display validation errors when I submit an empty form and with valid test data.",
+    "description": "",
+    "id": "as-a-user,-i-want-the-contact-form-to-display-validation-errors-when-i-submit-an-empty-form-and-with-valid-test-data.",
+    "keyword": "Feature",
+    "uri": "Form.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]
